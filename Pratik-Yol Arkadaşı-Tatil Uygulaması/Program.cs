@@ -33,7 +33,7 @@ switch (lokasyon)
 Console.WriteLine("Tatilde kaç kişi olacaksınız?");
 
 int kişi = Convert.ToInt32(Console.ReadLine());
-for (int i = 0; i <= kişi; i++) ;
+for (int i = 0; i <= kişi; i++) 
 {
     Console.WriteLine($" katılacak kişi sayısı {kişi}");
 
